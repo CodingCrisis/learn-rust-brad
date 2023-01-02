@@ -21,4 +21,7 @@ pub fn run(){
 
     //Print a tuple
     println!("{:?}", ("Marcin", true, 41));
+    
+    //Print with basic math
+    println!("10 + 10 = {}", 10 + 10);
 }

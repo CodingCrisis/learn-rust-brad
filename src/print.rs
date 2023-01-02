@@ -23,5 +23,5 @@ pub fn run(){
     println!("{:?}", ("Marcin", true, 41));
     
     //Print with basic math
-    println!("10 + 10 = {}", 10 + 10);
+    println!("10 + 20 = {}", 10 + 20);
 }

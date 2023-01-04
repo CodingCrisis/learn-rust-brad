@@ -26,5 +26,4 @@ pub fn run() {
     let face = '\u{1F600}';
 
     println!("{:?}", (a1, face));
-}    
-
+}

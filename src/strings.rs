@@ -26,7 +26,7 @@ pub fn run(){
         println!("{}", word);
     }
 
-    println!("{}", hello_cap);
+    println!("One char string for asserts: {}, length: {}, capacity: {}", hello_cap, hello_cap.len(), hello_cap.capacity());
 
     // Assertion testing <-- that was quite random Brad :)
     assert_eq!(1, hello_cap.len());

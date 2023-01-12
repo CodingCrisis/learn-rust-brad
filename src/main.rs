@@ -7,6 +7,8 @@ mod arrays;
 mod vectors;
 mod conditionals;
 mod loops;
+mod functions;
+mod pointer_ref;
 
 fn main() {
     println!("Hello, world!");
@@ -28,4 +30,8 @@ fn main() {
     conditionals::run();
     println!();
     loops::run();
+    println!();
+    functions::run();
+    println!();
+    pointer_ref::run();
 }
